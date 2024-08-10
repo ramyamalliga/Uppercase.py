@@ -1,0 +1,14 @@
+const str= "Hello World!";
+function Uppercase(str)
+{
+  for (var i = 0; i < str.length; i++) 
+  {
+    if (str[i] >= 'A' && str[i] <= 'Z') 
+    {
+      return true;
+    }
+  }
+  return false;
+}
+const result = Uppercase(str);
+console.log(result);
